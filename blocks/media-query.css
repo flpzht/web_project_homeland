@@ -11,10 +11,10 @@
   .header__subtitle {
     margin: 25px auto 30px;
   }
-  .main {
+  .content {
     max-width: 720px;
   }
-  .main__article {
+  .content__article {
     padding-top: 90px;
   }
   .article__title {
@@ -44,10 +44,10 @@
     margin: 16px auto 40px;
     max-width: 288px;
   }
-    .main {
+  .content {
     max-width: 288px;
   }
-  .main__article {
+  .content__article {
     padding-top: 64px;
   }
   .article__title {

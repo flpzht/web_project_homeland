@@ -1,6 +1,6 @@
 /*==== Main Block ====*/
 
-.main {
+.content {
   max-width: 984px;
   margin: 0 auto;
   width: 100%;
@@ -9,7 +9,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.main__article {
+.content__article {
   padding-top: 92px;
   max-width: 830px;
   display: flex;
@@ -18,35 +18,7 @@
   justify-content: flex-start;
   margin: 0;
 }
-.article__title {
-  font-size: 3.375rem;
-  line-height: 1;
-  font-weight: 900;
-  margin: 0;
-}
-.article__quote {
-  max-width: 738px;
-  margin: 0;
-  padding: 0;
-}
-.article__quote_text {
-  font-size: 1.5rem;
-  line-height: 1.25;
-  font-weight: 400;
-  margin: 40px 0 0;
-}
-.article__quote_footer {
-  text-align: right;
-  margin: 10px 0 0;
-}
-.article__quote_author {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 400;
-  margin: 0;
-  padding-right: 6px;
-}
-.main__text {
+.content__text {
   max-width: 722px;
   font-size: 1rem;
   line-height: 1.63;
