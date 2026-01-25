@@ -14,7 +14,7 @@
   .content {
     max-width: 720px;
   }
-  .content__article {
+  .article {
     padding-top: 90px;
   }
   .article__title {
@@ -47,7 +47,7 @@
   .content {
     max-width: 288px;
   }
-  .content__article {
+  .article {
     padding-top: 64px;
   }
   .article__title {
