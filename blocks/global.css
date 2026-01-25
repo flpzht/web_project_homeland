@@ -1,0 +1,29 @@
+/*  =========== Global Styles ===========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --color-primary: #fff;
+  --bg-color-primary: #2A2C2F;
+  --font-family-base: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--bg-color-primary);
+    color: var(--color-primary);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
