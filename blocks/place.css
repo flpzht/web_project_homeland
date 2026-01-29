@@ -9,7 +9,7 @@
     "place__title place__author"
     "place__image place__paragraph"
     "place__image place__paragraph"
-    "place__buttom .";
+    "place__buttom place__paragraph";
   gap: 48px 40px;
 }
 
@@ -58,8 +58,9 @@
 }
 .place-paragraph-item {
   width: 100%;
+  height: 100%;
   font-size: 1.125rem;
-  line-height: 1.63;
+  line-height: 1.5;
   font-weight: 400;
 }
 .place-buttom {
