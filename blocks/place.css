@@ -1,0 +1,85 @@
+/* ==== Place Blocks ==== */
+
+.place {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "place__title place__author"
+    "place__image place__paragraph"
+    "place__image place__paragraph"
+    "place__buttom .";
+  gap: 48px 40px;
+}
+
+.place-title {
+  grid-area: place__title;
+  font-size: 4.5rem;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.place-image {
+  grid-area: place__image;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+.place-image:hover {
+  opacity: 0.5;
+}
+.place-author {
+  grid-area: place__author;
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.15;
+  font-weight: 400;
+  align-self: self-end;
+}
+.place-author-title {
+  font-size: 0.75rem;
+  line-height: 1.15;
+  font-weight: 400;
+  color: #aaa;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.place-author-name {
+  font-size: 1.125rem;
+  line-height: 1.15;
+  font-weight: 400;
+}
+.place-paragraph {
+  grid-area: place__paragraph;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.place-paragraph-item {
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.63;
+  font-weight: 400;
+}
+.place-buttom {
+  grid-area: place__buttom;
+  font-size: 1.125rem;
+  line-height: 1.15;
+  font-weight: 400;
+  color: #fff;
+  max-width: 356px;
+  background: #fff;
+  background: linear-gradient(90deg,#0278FE 0%, #003A7B 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.place-buttom:hover {
+  background: #003a7b;
+  opacity: 0.75;
+}
