@@ -13,31 +13,29 @@
   gap: 48px 40px;
 }
 
-.place-title {
+.place__title {
   grid-area: place__title;
   font-size: 4.5rem;
   line-height: 1.15;
   font-weight: 900;
 }
-.place-image {
+.place__image {
   grid-area: place__image;
   width: 100%;
   height: 100%;
   object-fit: cover;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease;
 }
-.place-image:hover {
+.place__image:hover {
   opacity: 0.5;
 }
-.place-author {
+.place__author {
   grid-area: place__author;
   width: 100%;
-  font-size: 1.125rem;
-  line-height: 1.15;
-  font-weight: 400;
   align-self: self-end;
 }
-.place-author-title {
+.place__author-title {
   font-size: 0.75rem;
   line-height: 1.15;
   font-weight: 400;
@@ -45,25 +43,25 @@
   text-transform: uppercase;
   padding-bottom: 8px;
 }
-.place-author-name {
+.place__author-name {
   font-size: 1.125rem;
   line-height: 1.15;
   font-weight: 400;
 }
-.place-paragraph {
+.place__paragraph {
   grid-area: place__paragraph;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-.place-paragraph-item {
+.place__paragraph-item {
   width: 100%;
   height: 100%;
   font-size: 1.125rem;
   line-height: 1.5;
   font-weight: 400;
 }
-.place-buttom {
+.place__buttom {
   grid-area: place__buttom;
   font-size: 1.125rem;
   line-height: 1.15;
@@ -80,7 +78,7 @@
   text-decoration: none;
   transition: opacity 0.3s ease;
 }
-.place-buttom:hover {
+.place__buttom:hover {
   background: #003a7b;
   opacity: 0.75;
 }

@@ -4,22 +4,63 @@
   .header {
     padding-top: 30px;
   }
+
+  .header__logo {
+    max-width: 254px;
+  }
+
+  .header__content {
+    margin-top: 80px;
+  }
+
   .header__title {
     font-size: 4.5rem;
     max-width: 530px;
   }
+
   .header__subtitle {
     margin: 25px auto 30px;
   }
-  .content {
-    max-width: 720px;
-  }
+
   .article {
     padding-top: 90px;
+    max-width: 720px;
   }
+
   .article__title {
     font-size: 2.8125rem;
   }
+
+  .photo-grid {
+    margin: 64px 0 0;
+    padding: 0 24px 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .places {
+    margin: 88px 0 0;
+    max-width: 720px;
+  }
+
+  .place__title {
+    font-size: 2.5rem;
+  }
+
+  .place__author-title {
+    font-size: .75rem;
+  }
+
+  .place__author-name {
+    font-size: 1.125rem;
+  }
+
+  .place__paragraph {
+    font-size: 1rem;
+  }
+
   .footer {
     margin: 88px auto 24px;
   }
@@ -29,29 +70,64 @@
   .header {
     padding-top: 20px;
   }
+
   .header__logo {
     max-width: 188px;
   }
+
   .header__content {
     margin-top: 50px;
   }
+
   .header__title {
     font-size: 2.5rem;
     max-width: 228px;
   }
+
   .header__subtitle {
     font-size: 1rem;
     margin: 16px auto 40px;
     max-width: 288px;
   }
-  .content {
-    max-width: 288px;
-  }
+
   .article {
     padding-top: 64px;
   }
+
   .article__title {
     font-size: 2rem;
+  }
+
+  .photo-grid {
+    margin: 64px 0 0;
+    padding: 0 15px 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .places {
+    margin: 62px 0 0;
+    max-width: 100%;
+    padding: 0 15px 0;
+  }
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "place__title"
+      "place__author"
+      "place__image"
+      "place__paragraph"
+      "place__buttom";
+    gap: 30px;
+  }
+  .place__image {
+    padding: 0;
+  }
+  .place__buttom {
+    max-width: 100%;
+    font-size: .875rem;
+    padding: 13px 15px;
   }
   .footer {
     margin: 64px auto 24px;
